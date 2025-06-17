@@ -3,28 +3,25 @@ package basicSyntax;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-		//コメントアウト
-		System.out.println("Hello, Geekation");
-		//Stringはプリミティブ(基本型)ではなく、参照型。charの塊、処理するのに色々なメソッドが絡んでいるから。
-		System.out.println("こんにちは");
-		System.out.println("私の名前は");
-		System.out.println("Geek君です。");
-		
-		System.out.println("こんにちは" + "私の名前は" + "Geek君です");
-		
-		System.out.println(1);
-		System.out.println(-1);
-		System.out.println(5+1);
-		System.out.println("5 + 1");
-		System.out.println("5" + "1");
-		
-		System.out.println(0.25);
-		System.out.println(-5.0);
-		System.out.println(5.0 - 0.25);
-		
-		System.out.println(true);
-		System.out.println(false);
+		int num1 = 10;
+	    int num2 = 300;
+
+//	    int addUpResult = Calculation.addUp(num1, num2);
+//	    int subtractResult = Calculation.subtract(num1, num2);
+//	    int multiplyResult = Calculation.multiply(num1, num2);
+//	    int divideResult = Calculation.divide(num1, num2);
+//
+//	    System.out.println("足し算の計算結果は" + addUpResult + "です。");
+//	    System.out.println("引き算の計算結果は" + subtractResult + "です。");
+//	    System.out.println("掛け算の計算結果は" + multiplyResult + "です。");
+//	    System.out.println("割り算の計算結果は" + divideResult + "です。");
+	    
+	    int age = 20;
+	    double height = 180.0;
+	    
+	    //クラス
+	    GeekIntroduction.greeting(age, height);
+	    GeekIntroduction.specialSkill(num1, num2);
 	}
 
 }
